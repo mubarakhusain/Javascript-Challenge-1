@@ -1,0 +1,745 @@
+*{
+    box-sizing:border-box;
+    margin:5px;
+    padding:0px;
+    
+}
+body{overflow-x: hidden;}
+ 
+.navbar_top{
+    background-color: rgb(255,110,0);
+    height:70px;
+    position:relative;
+
+}
+.my-container{
+    height:70px;
+}
+.my-row{
+    height:70px;
+}
+.social_icon {
+    display: flex;
+    align-self: center;
+}
+.social_icon a img{
+    margin:-2px;
+    width:35px;
+}
+.search_bar{
+    display: flex;
+    align-self: center;
+    position:relative;
+  
+    
+
+}
+
+.search_bar img{
+    width:20px;
+    position:absolute;
+    left:280px;
+    top:8px;
+    
+}
+.search_bar input{
+    width:300px;
+    border-radius: 2rem;
+    cursor:pointer;
+}
+.four_items{
+    display:flex;
+    align-self: center;
+}
+.four_items img{
+    position: relative;
+    left:50px;
+    width:30px;
+}
+.four_items ul{
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+    margin:5px;
+
+}
+
+.four_items ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+}
+.select_lang{
+    display:flex;
+    align-self:center ;
+    width:100px;
+    height:35px;
+}
+.select_lang select{
+    width:100px;
+    height:35px;
+}
+#logo{
+    display:flex;
+    align-content: flex-end;
+}
+.logo a img{
+    width:200px;
+
+}
+#navbar-2.fixed {
+    position: fixed;
+    left:35%;
+    width:30%;
+    
+    z-index:2;
+    box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.5);
+    
+  }
+  
+/* 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  } */
+
+#navbar-2 {
+    background-color: white;
+    margin:5px;
+    padding:0px;
+    width:50%;
+    position:relative;
+    right:100px;
+    top:35px;
+
+}
+.navbar-2 ul li a:hover{
+     background-color: rgb(255,110,0);
+}
+#btn-signin{
+    position: relative;
+    left:50px;
+    border-radius: 2rem;
+    background-color: rgb(255,110,0);
+    border:none;
+    font-weight: 700;
+    cursor:pointer;
+
+}
+.my-container-3{
+    height:620px;
+}
+.carousel-section{
+    position:relative;
+    bottom:400px;
+    left:700px;
+}
+.carousel-section h6{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    color:rgb(106, 224, 106);
+    font-size: 20px;
+}
+.carousel-section h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    color:white;
+}
+#btn-shopnow{
+    box-shadow:  2px 5px rgb(109, 109, 109);
+    border:none;
+    border-radius:2rem;
+    font-weight: 700;
+    background-color: rgb(255,110,0);
+}
+.categories{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: none;
+
+}
+.my-container-4 h1{
+    font-family: 'Antic Slab', serif;
+}
+.categories div h2{
+    position:relative;
+    font-family: 'Antic Slab', serif;
+    font-weight: 900;
+    font-size: 25px;
+    bottom:210px;
+    left:210px;
+}
+.categories div img{
+
+    width:100%;
+    
+}
+.categories div button{
+    position:relative;
+    bottom:120px;
+    left:230px;
+    border:none;
+    height:50px;
+    width:130px;
+    border-radius: 2rem;
+    background-color: rgb(255,110,0);
+    font-weight: 700;
+    box-shadow: 2px 5px rgb(160, 158, 158);
+}
+.categories div button:hover{
+    background-color: rgba(255, 111, 0, 0.568);
+}
+.latest-prd{
+    display:flex;
+    justify-content:space-between ;
+    position: relative;
+    font-family: 'Antic Slab', serif;
+}
+.navbar-3{
+    position:relative;
+    bottom:25px;
+}
+.product-image{
+    position:relative;
+    right: 5px;
+    bottom:5px;
+}
+.btn-new{
+    position:absolute;
+    border-radius: 2rem;
+    top:25px;
+    left:280px;
+    width:70px;
+    height:40px;
+    background-color: rgb(248, 23, 23);
+    border: none;
+    color:white;
+    font-weight: 700;
+}
+.card-content{
+    display:grid;
+    justify-items: center;
+}
+.title-product{
+    font-style: bold;
+    font-weight: 800;
+    margin:2px;
+}
+.price{
+    font-weight: 700;
+    margin:2px;
+}
+.offer{
+    color: rgb(255, 110, 0);
+    font-weight: 700;
+    margin:2px;
+}
+.price-strike{
+    text-decoration: line-through;
+    margin:2px;
+}
+#price-group{
+   display: flex;
+}
+.star-icon{
+    display:flex;
+    justify-content: center;
+    color:rgb(250, 216, 26);
+    margin:2px;
+}
+#card-body{
+    padding:0px;
+
+}
+
+#product-card{
+    margin:5px;
+    width:31%;
+    padding:0px;
+}
+.btn-view-more-div{
+  position: relative;
+  left:800px;
+}
+#btn-vm{
+    background-color: rgb(255, 110, 0);
+    color:white;
+    font-weight: 700;
+    border:none;
+    border-radius: 2rem;
+}
+#btn-vm:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 110, 0);
+    font-weight: 700;
+    border:solid 1px black;
+    border-radius: 2rem;
+}
+.collection2{
+    display: grid;
+    grid-template-columns:auto auto auto auto ;
+    grid-template-rows:1fr;
+    width:70%;
+    position:relative;
+    right:25px;
+
+
+}
+.collection2 img{
+    width:80px;
+    position: relative;
+    top:40px;
+}
+.collection2 div{
+    display:inline-grid;
+    height:240px;
+    justify-items: center;
+    border:0.2px solid rgb(196, 196, 196);
+}
+.collection2 div:nth-child(2){
+    border-left:none;
+}
+.collection2 div:nth-child(3){
+    border-left:none;
+}
+.collection2 div:nth-child(4){
+    border-left:none;
+}
+.collection2 div h4{
+    margin:5px;
+    font-family: sans-serif;
+    font-weight:700;
+    font-size: 12px;
+    position: relative;
+    top:15px;
+}
+.collection2 div p{
+    position:relative;
+    font-family: sans-serif;
+    text-align: center;
+    font-size:12px;
+    bottom:10px;
+    color:rgb(177, 177, 177);
+}
+
+.content{
+    display:flex;
+
+}
+.content div{
+   width:300px;
+
+}
+.content h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+.content div p{
+    font-size: 15px;
+    margin:3px;
+}
+.column-1{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.column-1 a{
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+}
+.column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.column-2 a{
+    color:rgb(94, 94, 94);
+    text-decoration: none;
+}
+.column-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.column-3 a{
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+}
+.column-4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.column-4 a{
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+}
+.column-5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.column-5 form input{
+    background-color: rgb(179, 178, 178);
+    border:none;
+    font-size: 15px;
+    color:white;
+}
+.column-5 button{
+    background-color: black;
+    position:relative;
+    bottom:2px;
+    color:white;
+    width:60px;
+    font-size: 10px;
+    font-weight: 600;
+    height:23px;
+}
+.go-to-top{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.go-to-top img{
+    width:50px;
+}
+.payment{
+    display: flex;
+    flex-direction: row;
+}
+.connect{
+    display: flex;
+    flex-direction: row;
+}
+.h51 h5{
+    font-size: 15px;
+    font-weight: 700;
+}
+.h52 h5{
+    font-size: 15px;
+    font-weight: 700;
+}
+.footer-div{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+.paymenticon{
+    position: relative;
+    left:250px;
+}
+.connecticon{
+    position: relative;
+    left:250px;
+}
+@media only screen and (min-width: 1200px)and (max-width:1500px){
+    .social_icon a img{
+        width:32px;
+    }
+    .four_items{
+        position: relative;
+        right:50px;
+
+    }
+  
+   #phn-icon{
+       position: relative;
+       top:10px;
+   }
+   #btn-signin{
+        font-size:8px ;  
+    
+       height:35px;
+       padding:5px;
+   }
+  .carousel-section{
+      left:500px;
+  }
+  #btn-shopnow1{
+     width:90px;
+     height:40px;
+     font-size: 10px;
+  }
+  #btn-shopnow2{
+    width:90px;
+    height:40px;
+    font-size: 10px;
+ }
+ #btn-shopnow3{
+    width:90px;
+    height:40px;
+    font-size: 10px;
+ }
+  
+  .btn-new{
+    left:260px;
+ }
+ .content div{
+    width:200px;
+ }
+ .content div{
+     width:200px;
+ }
+ .paymenticon{
+     left:0px;
+ }
+}
+@media only screen and (min-width: 992px) and (max-width:1100px){
+    .carousel-section{
+        left:400px;
+        bottom:370px;
+     }
+    #btn-shopnow1{
+        width:60px;
+        height:30px;
+        font-size: 8px;
+        bottom:80px;
+        left:180px;
+    }
+     #btn-shopnow2{
+        width:60px;
+        height:30px;
+        font-size: 8px;
+        bottom:80px;
+        left:180px;
+     }
+     #btn-shopnow3{
+        width:60px;
+        height:30px;
+        font-size: 8px;
+        bottom:80px;
+        left:180px;
+     }
+    
+     #womens{
+         position:relative;
+         left:140px;
+         bottom:170px;
+     }
+     #ethnic-wear{
+        position:relative;
+        left:100px;
+        bottom:170px;
+     }
+     #mens{
+        position:relative;
+        left:150px;
+        bottom:170px;
+     }
+     .btn-new{
+        left:180px;
+     }
+     .paymenticon{
+        left:0px;
+     }
+     .connecticon{
+         left:150px;
+     }
+}
+@media only screen and (min-width: 768px) and (max-width:950px){
+    .social_icon a img{
+        width:25px;}
+
+    .search_bar form{
+            width:50px;
+    }
+    .search_bar form img{
+            left:180px;
+    }
+    .four_items img{
+        display:none;
+        width:20px;
+    }
+    #font-nav{
+        position: relative;
+        right:70px;
+        font-size: 4px;
+    }
+    .select_lang select{
+        width:20px;
+        border-radius: 2rem;
+    }
+    #img-logo{
+        position: relative;
+        top:20px;
+        width:80px;
+    }
+    .navbar-2 ul{
+        font-size: 9px;
+    }
+    #btn-signin{
+        font-size: 8px;
+        bottom:10px;
+        width:60px;
+        height:40px;
+    }
+    .carousel-section{
+        left:400px;
+        bottom:250px;
+    }
+    .carousel-section h6{
+        font-size: 15px;
+    }
+    .carousel-section h1{
+        font-size: 35px;
+    }
+    #btn-shopnow1{
+        font-size: 10px;
+        width:60px;
+        height:40px;
+        left:150px;
+        bottom:70px;
+    }
+    #womens{
+        font-size: 20px;
+        left:100px;
+        bottom:150px;
+    }
+    #btn-shopnow2{
+        font-size: 10px;
+        width:60px;
+        height:40px;
+        left:150px;
+        bottom:70px;
+    }
+    #ethnic-wear{
+        font-size: 20px;
+        left:80px;
+        bottom:150px;
+    }
+    #btn-shopnow3{
+        font-size: 10px;
+        width:60px;
+        height:40px;
+        left:150px;
+        bottom:70px;
+    }
+    #mens{
+        font-size: 20px;
+        left:100px;
+        bottom:150px;
+    }
+    .paymenticon{
+        left:0px;
+     }
+     .payment img{
+         width:20px;
+         margin:2px;
+     }
+     .connecticon{
+        left:150px;
+    }
+    .connect img{
+        width:20px;
+         margin:2px;
+    }
+
+}   
+@media only screen and (min-width: 600px) and (max-width:710px){
+    .social_icon a img{
+        width:25px;}
+
+    .search_bar form{
+            width:30px;
+            height:30px;
+    }
+    .search_bar form img{
+            left:180px;
+    }
+    .four_items img{
+        display:none;
+        width:20px;
+    }
+    #font-nav{
+        position: relative;
+        right:70px;
+        font-size: 3px;
+    }
+    .select_lang select{
+        width:20px;
+        border-radius: 2rem;
+    }
+    #img-logo{
+        position: relative;
+        top:20px;
+        width:80px;
+    }
+    .navbar-2 ul li{
+        margin:5px;
+    }
+    .navbar-2 ul{
+        font-size: 9px;
+    }
+    #btn-signin{
+        font-size: 8px;
+        align-content: center;
+        left:20px;
+        bottom:10px;
+        width:30px;
+        height:20px;
+    }
+    .carousel-section{
+        left:300px;
+        bottom:200px;
+    }
+    .carousel-section h6{
+        font-size: 10px;
+    }
+    .carousel-section h1{
+        font-size: 25px;
+    }
+    #btn-shopnow1{
+        font-size: 7px;
+        width:30px;
+        height:20px;
+        left:100px;
+        bottom:70px;
+    }
+    #womens{
+        font-size: 10px;
+        left:80px;
+        bottom:110px;
+    }
+    #btn-shopnow2{
+        font-size: 7px;
+        width:30px;
+        height:20px;
+        left:100px;
+        bottom:70px;
+    }
+    #ethnic-wear{
+        font-size: 10px;
+        left:80px;
+        bottom:110px;
+    }
+    #btn-shopnow3{
+        font-size: 7px;
+        width:30px;
+        height:20px;
+        left:100px;
+        bottom:70px;
+    }
+    #mens{
+        font-size: 10px;
+        left:80px;
+        bottom:110px;
+    }
+    .paymenticon{
+        left:0px;
+     }
+     .payment img{
+         width:20px;
+         margin:2px;
+     }
+     .connecticon{
+        left:150px;
+    }
+    .connect img{
+        width:20px;
+         margin:2px;
+    }
+}
+    
+     
